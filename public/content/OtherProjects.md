@@ -8,7 +8,7 @@ Description
 
 ## Project 2
 Description
-- Tags: Category 2
+- Tags: Category 1
 - Badges:
   - Badge [blue]
 - Buttons:
@@ -16,7 +16,7 @@ Description
 
 ## Project 3
 Description
-- Tags: Category 3
+- Tags: Category 1
 - Badges:
   - Badge [blue]
 - Buttons:

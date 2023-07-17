@@ -15,9 +15,6 @@ import {
   List,
   ListItem,
   ListIcon,
-  Button,
-  ButtonGroup,
-  Center,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Fade } from "react-reveal";
@@ -36,9 +33,6 @@ export default function Experience({ color }) {
     }
   }, [options]);
   
-  const handleSelected = (value) => {
-    setSelected(value);
-  };
 
   return (
     <>
@@ -58,18 +52,6 @@ export default function Experience({ color }) {
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
-          <Center px={4}>
-            <ButtonGroup variant="outline">
-              {options.map((option) => (
-                <Button
-                  colorScheme={selected === option.value ? `${color}` : "gray"}
-                  onClick={() => handleSelected(option.value)}
-                >
-                  {option.value}
-                </Button>
-              ))}
-            </ButtonGroup>
-          </Center>
           <Stack px={4} spacing={4}>
             {experience
               .filter((exp) => exp.tags.includes(selected))

@@ -1,29 +1,17 @@
-## Company 1
-- *Role* | Jan'23 - Feb'23
-- ![logo512](../assets/logo512.png)
+## OURPASS
+- *Backend engineering intern* | April'23 - June'23
+- ![pass](../assets/pass.jpg)
 - Tags: Category 1
 - Badges:
-  - Badge [blue]
-- List Items:
-  - Point 1
-  - Point 2
+  - nestjs | typescript | MySQL | typeorm [blue]
 
-## Company 2
+
+<!-- ## Company 3
 - *Role* | Feb'23 - Mar'23
 - ![logo512](../assets/logo512.png)
 - Tags: Category 2
 - Badges:
   - Badge [blue]
-- List Items:
-  - Point 1
-  - Point 2
 
-## Company 3
-- *Role* | Mar'23 - Apr'23
-- ![logo512](../assets/logo512.png)
-- Tags: Category 3
-- Badges:
-  - Badge [blue]
-- List Items:
-  - Point 1
-  - Point 2
+
+

@@ -13,15 +13,18 @@ import ProfileArray from "./ProfileArray";
 
 export default function Header({ color }) {
   const profile = ProfileArray();
-  const scrollToContact = () => {
-    const contactSection = document.querySelector("#contact");
-    contactSection.scrollIntoView({ behavior: "smooth" });
-  };
+  // const scrollToContact = () => {
+  //   const contactSection = document.querySelector("#contact");
+  //   contactSection.scrollIntoView({ behavior: "smooth" });
+  // };
   const linkedin = () => {
     window.open(
-                `${profile.linkedin}`,
-                "_blank",
-                "noreferrer,noopener"
+                `${profile.linkedin}`
+              );
+  };
+  const resume = () => {
+    window.open(
+                `${profile.resume}`
               );
   };
   return (
@@ -80,9 +83,9 @@ export default function Header({ color }) {
               variant={"link"}
               colorScheme={"blue"}
               size={"sm"}
-              onClick={scrollToContact}
+              onClick={resume}
             >
-              Contact Me
+              Resume
             </Button>
             <Box>
               <Icon
